@@ -51,6 +51,8 @@ document.getElementById('calculate').addEventListener('click', function () {
     const incomeValue = incomeInput.value;
     const incomeNumber = parseFloat(incomeValue);
 
+
+    // const balanceInput = getInput('balance')
     const balanceInput = document.getElementById('balance');
     const balanceValue = balanceInput.value;
     const balanceNumber = parseFloat(balanceValue);
