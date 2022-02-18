@@ -1,0 +1,23 @@
+/*------------------------------ heading------------- */
+.heading{
+    color: rgb(28, 148, 108);
+}
+
+/* ------------section ------------------------- */
+
+.image{
+    width: 400px;
+    height: 600px;
+}
+h3 {
+    margin-bottom: 25px;
+    margin-top: 19px;
+}
+
+.income{
+    background-color: rgb(238, 240, 239);
+}
+input{
+    background-color: rgb(150, 147, 147);
+}
+
