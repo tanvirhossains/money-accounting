@@ -3,7 +3,6 @@ function getInput(inputId) {
     const inputValue = input.value;
     const inputNumber = parseFloat(inputValue);
     return inputNumber;
-
 }
 
 // function calculatingIncomeExpenses(){
@@ -31,16 +30,16 @@ document.getElementById('calculate').addEventListener('click', function () {
 
 
     //geting the total expense + adding to the total expense 
-    // const totalExIput = document.getElementById('total-expense');
-    // const totalExValue = totalExIput.value;
-    // const totalNumber = parseFloat(totalExValue)
+    const totalExIput = document.getElementById('total-expense');
+    const totalExValue = totalExIput.value;
+    const totalNumber = parseFloat(totalExValue)
 
-    const expenseInput = getInput('total-expense')
-    // const totalExpense = inputNumber + inputrNumber + inputcNumber;
+    // const expenseInput = getInput('total-expense')
+    //  const totalExpense = inputNumber + inputrNumber + inputcNumber;
     const totalExpense = foodInput + rentInput + clothesInput;
-    // totalExIput.innerText = totalExpense;
+    totalExIput.innerText = totalExpense;
 
-    expenseInput.innerText =totalExpense;
+    // expenseInput.innerText =totalExpense;
 
 
 
@@ -64,3 +63,30 @@ document.getElementById('calculate').addEventListener('click', function () {
 
     // console.log(inputNumber, inputcNumber, inputrNumber, totalExIput.innerText, balanceInput.innerText)
 })
+
+
+
+
+// function verifyPin() {
+//     const foodInput = getInput('food').value;
+//     const rentInput = getInput('rent').value;
+//     const clothesInput = getInput('clothes').value;
+//     // const isNumber = foodInput 
+//     // const pin = document.getElementById('').value;
+//     // const typedNumber = document.getElementById('typed-number').value;
+//     const notifySuccess = document.getElementById('notify-positive');
+//     const notifyFail = document.getElementById('notify-number');
+
+//     if (foodInput > 0) {
+
+//         notifySuccess.style.display = 'block';
+//         notifyFail.style.display = 'none'
+//     }
+//     else {
+
+//         notifyFail.style.display = 'block';
+//         notifySuccess.style.display = 'none';
+
+//     }
+//     console.log('varifying chacking ')
+// }
